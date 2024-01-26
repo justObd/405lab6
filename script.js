@@ -2,7 +2,7 @@ const initLikes = 220;
 const initDisLikes = 34;
 let LikesCount = initLikes;
 let DisLikeCount= initDisLikes;
-let LikesBtn = document.getElementById("likeBtn");
+let LikeBtn = document.getElementById("likeBtn");
 let dislikesBtn = document.getElementById("dislikeBtn") ;
 
 LikeBtn.innerText= "👍 " + LikesCount;
